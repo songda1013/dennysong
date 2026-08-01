@@ -1,0 +1,70 @@
+.tabBar {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 26px 20px 18px;
+  background: #fff;
+  border-bottom: 1px solid #ececec;
+}
+
+.tabItem {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  min-width: 120px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.badge {
+  position: absolute;
+  top: -18px;
+  right: 0;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: #ea1d36;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.tabText {
+  display: inline-block;
+  color: #383943;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  transition: color 220ms ease, transform 220ms ease, font-weight 220ms ease;
+}
+
+.activeTabText {
+  color: #121318;
+  font-weight: 700;
+  transform: translateY(-2px);
+}
+
+.tabIndicatorTrack {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
+  height: 18px;
+  pointer-events: none;
+}
+
+.tabIndicatorSlot {
+  display: flex;
+  justify-content: center;
+  transition: transform 280ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+
+.tabIndicator {
+  width: 42px;
+  height: 6px;
+  margin-top: 12px;
+  border-radius: 999px;
+  background: #ea1d36;
+  box-shadow: 0 6px 14px rgba(234, 29, 54, 0.22);
+}

@@ -1,0 +1,161 @@
+.addressPage {
+  min-height: 100vh;
+  background: #f7f7f7;
+  color: #303038;
+  font-size: 28px;
+}
+.addressList {
+  background: #fff;
+}
+.addressItem {
+  box-sizing: border-box;
+  min-height: 176px;
+  padding: 22px 28px 20px 24px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ededed;
+}
+.selectedItem {
+  background: #fff5f5;
+}
+.selectMark {
+  box-sizing: border-box;
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
+  margin-right: 20px;
+  border: 2px solid #dedede;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selectedMark {
+  border-color: #e8334a;
+  background: #e8334a;
+}
+.check {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+}
+.addressInfo {
+  min-width: 0;
+  flex: 1;
+}
+.addressTitle {
+  min-width: 0;
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  font-weight: 600;
+}
+.firstLine,
+.secondLine {
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  line-height: 40px;
+}
+.secondLine {
+  margin-top: 4px;
+}
+.leadingTags {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.tag {
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 160px;
+  margin-right: 10px;
+  padding: 0 8px;
+  overflow: hidden;
+  border-radius: 4px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.primaryTag {
+  background: #fff0f0;
+  color: #f06a73;
+}
+.secondaryTag {
+  background: #fff4e9;
+  color: #ec9a4f;
+}
+.addressLine,
+.secondAddressLine {
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+  line-height: 40px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.addressLine {
+  font-weight: 600;
+}
+.secondAddressLine {
+  display: block;
+  font-weight: 600;
+}
+.addressWithTrailingTag {
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+  font-weight: 600;
+  line-height: 40px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.endTag {
+  flex: 0 1 50%;
+  max-width: 50%;
+  margin-right: 0;
+  margin-left: 10px;
+  background: #fff0f0;
+  color: #f06a73;
+}
+.timeTag {
+  display: inline-block;
+  max-width: 50%;
+  margin-top: 0;
+  margin-left: 10px;
+  padding: 0 8px;
+  overflow: hidden;
+  border: 1px solid #ff9ba6;
+  border-radius: 4px;
+  color: #f16e7c;
+  font-size: 22px;
+  line-height: 32px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.contact {
+  margin-top: 5px;
+  display: flex;
+  color: #a9a9ad;
+  font-size: 24px;
+  line-height: 32px;
+}
+.phone {
+  margin-left: 22px;
+}
+.editIcon {
+  flex: 0 0 54px;
+  width: 54px;
+  margin-left: 16px;
+  color: #f04b5c;
+  font-size: 22px;
+  line-height: 42px;
+  text-align: right;
+}
